@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "node esbuild.js",
+    "build": "npm install",
     "dev": "tsx watch --ignore node_modules src/index.js",
-    "start": "node dist/index.cjs",
+    "start": "node index.js",
     "lint": "eslint . --ext .ts,.js"
   },
   "dependencies": {
